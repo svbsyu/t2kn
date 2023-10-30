@@ -1,12 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
-import Menu from './Menu.js';
-
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
+import Menu from "./Menu.js";
+import Header from "./Header";
 ReactDOM.render(
-  <Menu/>,
-  document.getElementById('root')
+  <div className="marco">
+    <Menu />
+    <Header />
+  </div>,
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function

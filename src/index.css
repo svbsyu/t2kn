@@ -26,3 +26,21 @@ code {
   color: red;
   background-color: beige;
 }
+
+/*--Header--*/
+.imgcab{
+  width: 95%;
+  border: 2px solid black;
+  height: 300px;
+}
+.tit{
+  text-align: center;
+  color: brown;
+}
+.marco{
+  width: 90%;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
